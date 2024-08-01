@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hello World</title>
+</head>
+
+<body>
+  <h4> Job Opening </h4>
+  
+  {% for j in jobs %}
+    <h4> Title</h4>
+    <lable> {{j.title }}</label>
+    <h4> Location</h4>
+    <label> {{j.location }}</label>
+  
+  {% endfor %}
+</body>
+</html>
